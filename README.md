@@ -1,54 +1,53 @@
-# Diabetes Prediction Web App
+# Diabetes Prediction Web App 🧠💉
 
-A simple and practical machine learning web app to predict whether a patient is likely to have diabetes based on health data inputs.
+A machine learning-powered web application that predicts whether a person is diabetic based on their medical data. Built with Streamlit and trained using a supervised classification model.
 
-## 📊 Project Overview
+## 💡 Features
+- Predicts diabetes using health metrics like glucose, insulin, BMI, etc.
+- Clean and simple user interface with Streamlit
+- Model trained on Pima Indian Diabetes dataset
 
-This project is based on the Pima Indians Diabetes dataset and demonstrates the complete machine learning pipeline:
-- Data preprocessing & cleaning
-- Feature engineering
-- Model training using Logistic Regression
-- Building a web interface with Streamlit
+## 📊 Input Features
+- Pregnancies
+- Glucose
+- BloodPressure
+- SkinThickness
+- Insulin
+- BMI
+- DiabetesPedigreeFunction
+- Age
 
-The app predicts diabetes likelihood using metrics like glucose, BMI, blood pressure, and more.
+## 🧠 Model Used
+- Logistic Regression (Scikit-Learn)
 
-## 📁 Files Included
+## ⚙️ Technologies
+- Python
+- Pandas, NumPy
+- Scikit-learn
+- Streamlit
 
-- `app.py`: Streamlit app code.
-- `diabetes_prediction.ipynb`: Full Jupyter Notebook for preprocessing and model training.
-- `model.pkl`: Trained Logistic Regression model saved with pickle.
-
-## 🚀 Running the App
-
-To run this app locally:
-
+## 🚀 How to Run Locally
 bash
-# Clone the repo
-git clone https://github.com/your-username/diabetes-prediction-web-app.git
-
-# Install required packages
+git clone https://github.com/Koby-Neuron/koby-diabetes-prediction-app.git
+cd koby-diabetes-prediction-app
 pip install -r requirements.txt
-
-# Run the app
 streamlit run app.py
 
 
-## 📈 Model Performance
+## 📁 Files
 
-* Accuracy: 75%
-* Classifier: Logistic regression
-* F1-score: 0.77 (non-diabetic), 0.64 (diabetic)
+* `app.py` – Streamlit web app
+* `diabetes_model.pkl` – Trained machine learning model
+* `diabetes_predictor.ipynb` – Notebook with data cleaning, training, evaluation
 
-This means the model performs fairly well in predicting both classes, with room for future tuning.
+## 👤 Author
 
-## 👨‍💻 About Me
+Koby Joseph Taiwo – Passionate about AI/ML, currently seeking remote internship opportunities.
 
-This project was created by **Okobi Joseph Taiwo** as part of an application for a remote AI/ML internship at **Kinnovia**. I'm passionate about using data and machine learning to solve real-world problems and continually learning new tools and techniques in the field.
+## 📬 Contact
 
-## 🛠️ Tools & Technologies
+Email: kobyuj2006@gmail.com
+GitHub: [https://github.com/Koby-Neuron](https://github.com/Koby-Neuron)
 
-* Python
-* Pandas, NumPy, Scikit-learn, Logistic Regression, XGBoost
-* Streamlit
-* Jupyter Notebook
+```
 
